@@ -20,4 +20,6 @@ def find_the_cheese(potential_cheese)
   potential_cheese.find do |thing|
     if thing == cheese_types.any?{ |cheese| cheese == thing } 
       return thing
+    end
+  end
 end
