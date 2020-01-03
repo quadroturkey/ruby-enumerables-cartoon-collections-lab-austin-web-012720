@@ -26,4 +26,5 @@ def find_the_cheese(potential_cheese)
         i += 1 
       end
     end
+  end
 end
