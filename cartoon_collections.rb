@@ -18,4 +18,12 @@ def find_the_cheese(potential_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   potential_cheese.find do |thing| 
+    i = 0 
+    while i < cheese_types.length do
+      if thing == cheese_types[i]
+        return thing
+      else
+        i += 1 
+      end
+    end
 end
